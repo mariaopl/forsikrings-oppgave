@@ -41,7 +41,7 @@ code {
 .header {
   font-family: "Roboto", sans-serif;
   top: 80px;
-  left: 95px;
+  left: 55px;
   position: fixed;
 }
 
@@ -56,7 +56,7 @@ code {
 
 .content {
   top: 210px;
-  left: 95px;
+  left: 55px;
   position: fixed;
   height: 150 px;
   display: flex;
@@ -102,10 +102,10 @@ code {
 }
 
 .image-div {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 
 .image {
