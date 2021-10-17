@@ -25,7 +25,7 @@ function App() {
             <span>Dokument</span>
           </div>
           <div className="right-info">
-            <span>01.01.2021-01.01.2022</span>
+            <span>01.01.2021 - 01.01.2022</span>
             <span>123456789</span>
             <a>Avtaledokument (PDF)</a>
           </div>
