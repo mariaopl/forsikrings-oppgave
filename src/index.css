@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #f3f2ee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  top: 55px;
+  left: 50px;
+  position: absolute;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.content {
+  top: 210px;
+  left: 50px;
+  position: absolute;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bold-text {
+  font-weight: 640;
+}
+
+.medium-text {
+  font-size: 17px;
+}
+
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 60px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280px;
+  height: 90px;
+}
+
+.right-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.left-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.image {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+}
