@@ -31,8 +31,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="image">
-        <img src={Reisebilde}></img>
+      <div className="image-div">
+        <img src={Reisebilde} className="image"></img>
       </div>
     </div>
   );
