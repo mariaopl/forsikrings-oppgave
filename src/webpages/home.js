@@ -2,6 +2,8 @@ import React from "react";
 import Reisebilde from "../assets/reisebilde.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../index.css";
+import pdf from "../assets/Avtaledokument.pdf";
+import Reisebilde2 from "../assets/reisebilde2.PNG";
 
 const Home = () => {
   return (
@@ -30,14 +32,19 @@ const Home = () => {
           <div className="right-info">
             <span>01.01.2021 - 01.01.2022</span>
             <span>123456789</span>
-            <a>
+            <a
+              href={pdf}
+              target="_blank"
+              download="Avtaledokument"
+              className="pdf"
+            >
               Avtaledokument (PDF) <span className="arrow">&#8599;</span>
             </a>
           </div>
         </div>
       </div>
       <div className="image-div">
-        <img src={Reisebilde} className="image"></img>
+        <img src={Reisebilde2} className="image"></img>
       </div>
     </div>
   );
