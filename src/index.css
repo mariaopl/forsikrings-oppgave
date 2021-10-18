@@ -36,21 +36,22 @@ code {
 .container {
   min-width: 100vw;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
   font-family: "Roboto", sans-serif;
-  top: 80px;
+  top: 70px;
   left: 55px;
   position: fixed;
 }
 
 .title {
-  font-size: 36px;
+  font-size: 37px;
 }
 
 .name {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 10px;
 }
 
@@ -65,11 +66,11 @@ code {
 }
 
 .bold-text {
-  font-weight: 640;
+  font-weight: bolder;
 }
 
 .medium-text {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .sub-header {
@@ -113,4 +114,21 @@ code {
   height: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+.invoice-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.invoice-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.invoice-link:hover {
+  color: blue;
+  text-decoration: underline;
 }
