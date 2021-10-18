@@ -67,7 +67,7 @@ code {
 
 .bold-text {
   color: black;
-  text-shadow: 1px 0 black;
+  text-shadow: 1px 0 #888888;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -88,7 +88,7 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 295px;
+  width: 307px;
   height: 90px;
 }
 
@@ -96,7 +96,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 180px;
+  width: 185px;
 }
 
 .left-info {
