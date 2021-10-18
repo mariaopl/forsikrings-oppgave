@@ -66,7 +66,10 @@ code {
 }
 
 .bold-text {
-  font-weight: bolder;
+  color: black;
+  text-shadow: 1px 0 black;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .medium-text {
