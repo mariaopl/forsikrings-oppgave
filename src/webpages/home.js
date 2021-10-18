@@ -30,9 +30,7 @@ const Home = () => {
           <div className="right-info">
             <span>01.01.2021 - 01.01.2022</span>
             <span>123456789</span>
-            <a>
-              Avtaledokument (PDF) <span>&#8599;</span>
-            </a>
+            <a>Avtaledokument (PDF) {"\u2197"}</a>
           </div>
         </div>
       </div>
