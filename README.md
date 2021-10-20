@@ -21,5 +21,5 @@ How the developers and designers have maintained an universal design:
 - Clear marking of the clickable objects in the user interface.
 - The possibility to enlarge the page.
 - Understandable link text.
-- short and concise page with a lot of information with little text.
+- Short and concise page with a lot of information with little text.
 
