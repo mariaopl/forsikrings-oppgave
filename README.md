@@ -1,4 +1,4 @@
-# fremtind-case
+# forsikrings-oppgave
 
 ## task 1
 I chose to do the frontend-task, where I was supposed to recreate the picture in the task description. I used react to create a mobile web-app with the dimensions of iPhone 11. I also added some fictitious functionality, where *Avtaledokument (PDF)* downloads a PDF and *Fakturaoversikt* takes you to a new side.
